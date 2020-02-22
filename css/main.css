@@ -1,0 +1,24 @@
+html {
+    font-family: Dosis, Arial, 'Times New Roman', Times, serif;
+    font-size:16px;
+    font-weight; bolder;
+}
+
+   
+
+.class1{
+animation: 2s spin infinite;
+display: flex;
+justify-content: center;
+image-orientation: 90deg;
+
+}
+@keyframes spin{
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform:rotate(360deg)
+    }
+}
